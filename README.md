@@ -1,1 +1,1 @@
-# Website for Jason Tsan, a local barber
+# Business website for Jason Tsan, a local barber.
