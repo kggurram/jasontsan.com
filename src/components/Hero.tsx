@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
   const backgroundImageStyle = {
     backgroundImage: "url(" + require("../hero.jpeg") + ")",
-    backgroundSize: "cover",
+    backgroundSize: "cover",    
+    backgroundAttachment: "fixed",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat"
   };
 
   return (
