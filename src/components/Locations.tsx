@@ -3,7 +3,7 @@ const Locations = () => {
     <>
       <div className="flex justify-center">
         <div className="grid grid-cols-3 gap-24 max-w-screen-xl center-items">
-          <div className="outline outline-1 rounded-lg p-5 hover:bg-orange-50">
+          <div className="outline outline-1 bg-white rounded-lg p-5 ">
             <div className="">
               <h3 className="text-3xl font-bold mb-4">Milton</h3>
             </div>
@@ -22,7 +22,7 @@ const Locations = () => {
             </div>
           </div>
 
-          <div className="outline outline-1 rounded-lg p-5 hover:bg-orange-50">
+          <div className="outline outline-1 bg-white rounded-lg p-5 ">
             <div className="">
               <h3 className="text-3xl font-bold mb-4">Downtown Toronto</h3>
             </div>
@@ -41,7 +41,7 @@ const Locations = () => {
             </div>
           </div>
 
-          <div className="outline outline-1 rounded-lg p-5 hover:bg-orange-50">
+          <div className="outline outline-1 bg-white rounded-lg p-5">
             <div className="">
               <h3 className="text-3xl font-bold mb-4 flex flex-row gap-2">
                 <div>North York</div>

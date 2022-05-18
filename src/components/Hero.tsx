@@ -4,33 +4,31 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
   const backgroundImageStyle = {
     backgroundImage: "url(" + require("../hero.jpeg") + ")",
-    backgroundSize: "cover",    
+    backgroundSize: "cover",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
-    backgroundRepeat: "no-repeat"
+    backgroundRepeat: "no-repeat",
   };
 
   return (
     <>
       <div className="text-white  " style={backgroundImageStyle}>
-        <div className="bg-gradient-to-r from-black via-transparent to-black px-40 py-96 h-screen">
+        <div className="bg-gradient-to-r from-black via-transparent to-black px-40 py-52 h-screen">
           <div className="max-w-3xl grid grid-cols-1 gap-12">
             <h2 className="text-xl uppercase font-bold underline underline-offset-8">
               Stay Fresh
             </h2>
-            <h1 className="text-8xl font-bold">Jason Ts</h1>
+            <h1 className="text-8xl font-bold">Jason Tsan</h1>
             <p className="text-5xl">
               Up-and-coming barber, serving Milton, Toronto and North York.
             </p>
             <div>
               <ul className="text-xl list-disc pl-8">
                 <li>
-                  Following appropriate Covid-19 restrictions and hygiene
-                  procedures
+                  Remember to wash your hair before appointments
                 </li>
                 <li>
-                  Must have a mask or facial covering ready (required during
-                  your appointment)
+                  Preferably have mask or facial covering ready
                 </li>
               </ul>
             </div>
