@@ -14,9 +14,9 @@ function App() {
           <h2 className="text-4xl">Scheduling & Pricing</h2>
         </div>
         <Locations />
-        <div className="flex flex-row gap-4 justify-center py-24 text-white ">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center py-24 text-white ">
           <div>
-            <button className="flex flex-row justify-center gap-3 font-bold bg-red-500 px-8 py-5 text-xl rounded-xl w-auto bg-gradient-to-r from-red-500 to-orange-500">
+            <button className="flex justify-center gap-3 font-bold bg-red-500 px-8 py-5 m-auto text-xl rounded-xl bg-gradient-to-r from-red-500 to-orange-500">
               <a
                 href="https://calendly.com/acyv"
                 target="_blank"
@@ -30,7 +30,7 @@ function App() {
             </button>
           </div>
           <div className="">
-            <button className="flex flex-row justify-center gap-3 font-bold bg-red-500 px-8 py-5 text-xl rounded-xl w-auto bg-gradient-to-r from-red-500 to-orange-500">
+            <button className="flex justify-center gap-3 font-bold bg-red-500 px-8 py-5 text-xl m-auto rounded-xl bg-gradient-to-r from-red-500 to-orange-500">
               <a href="https://www.duzz.ca/" target="_blank" rel="noreferrer">
                 Book Barbershop
               </a>

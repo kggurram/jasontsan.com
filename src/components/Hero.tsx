@@ -13,23 +13,19 @@ const Hero = () => {
   return (
     <>
       <div className="text-white  " style={backgroundImageStyle}>
-        <div className="bg-gradient-to-r from-black via-transparent to-black px-40 py-52 h-screen">
+        <div className="bg-gradient-to-r from-black via-transparent lg:to-black px-16 pt-24 sm:px-24 sm:pb-60 md:px-24 md:pt-24 md:py-80 lg:py-60 xl: h-screen">
           <div className="max-w-3xl grid grid-cols-1 gap-12">
             <h2 className="text-xl uppercase font-bold underline underline-offset-8">
               Stay Fresh
             </h2>
-            <h1 className="text-8xl font-bold">Jason Tsan</h1>
-            <p className="text-5xl">
+            <h1 className="sm:text-8xl font-bold text-7xl">Jason Tsan</h1>
+            <p className="sm:text-5xl text-2xl">
               Up-and-coming barber, serving Milton, Toronto and North York.
             </p>
             <div>
               <ul className="text-xl list-disc pl-8">
-                <li>
-                  Remember to wash your hair before appointments
-                </li>
-                <li>
-                  Preferably have mask or facial covering ready
-                </li>
+                <li>Remember to wash your hair before appointments</li>
+                <li>Preferably have mask or facial covering ready</li>
               </ul>
             </div>
 
